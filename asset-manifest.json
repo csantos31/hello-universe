@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hello-universe/static/css/main.f855e6bc.css",
+    "main.js": "/hello-universe/static/js/main.6e0724ba.js",
+    "static/js/453.c98f078b.chunk.js": "/hello-universe/static/js/453.c98f078b.chunk.js",
+    "static/media/logo.svg": "/hello-universe/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hello-universe/index.html",
+    "main.f855e6bc.css.map": "/hello-universe/static/css/main.f855e6bc.css.map",
+    "main.6e0724ba.js.map": "/hello-universe/static/js/main.6e0724ba.js.map",
+    "453.c98f078b.chunk.js.map": "/hello-universe/static/js/453.c98f078b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6e0724ba.js"
+  ]
+}
