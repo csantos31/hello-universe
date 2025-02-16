@@ -1,15 +1,16 @@
 :root{
-    --primary-background: #131515;
-    --secondary-background: #30312B;
-    --primary-text: #FFFFD3;
+    --primary: #131515;
+    --secondary: #30312B;
+    --primary-light: #FFFFD3;
 }
 
 body{
-    background-color: var(--primary-background);
+    background-color: var(--primary);
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, span, p, button, input, div{
+h1, h2, h3, h4, h5, h6, span, p, button, input{
     font-family: 'roboto', sans-serif;
-    color: var(--primary-text);
+    color: var(--primary-light);
+    margin: 0;
 }

@@ -1,0 +1,52 @@
+.contact{
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h3{
+        color: var(--primary-light);
+    }
+
+    span{
+        
+        line-height: 1.5em;
+        text-align: center;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+        padding-top: 1rem;
+
+        .social-media-item{
+            display: flex;
+            gap: 0.5rem;
+            align-content: center;
+            justify-content: center;
+            
+            .icon{
+                font-size: 1.5em;
+            }
+        
+            .github-icon{
+                color: #fafbfc;
+            }
+
+            .linkedin-icon{
+                color: #0077B5;
+            }
+            
+            .whatsapp-icon{
+                color: #25d366;
+            }
+            
+            .youtube-icon{
+                color: #FF0000;
+            }
+        }
+    }
+}

@@ -1,14 +1,16 @@
 import React from 'react';
 import './styles/global.scss'
 
-import { Header } from './components/Header';
-import { Body } from './components/Body';
+import { Hero } from './components/Hero';
+import { Contact } from './components/Contact';
+import { Projects } from './components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Body/>
+      <Hero/>
+      <Contact/>
+      <Projects/>
     </div>
   );
 }
