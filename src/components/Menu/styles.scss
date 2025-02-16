@@ -1,0 +1,21 @@
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    margin-bottom: 1rem;
+    text-align: end;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary);
+    z-index: 999;
+    
+    span{
+        color: var(--gray);
+    }
+
+    h3{
+        color: var(--primary-light);
+    }
+}

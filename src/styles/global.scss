@@ -1,7 +1,15 @@
+
 :root{
     --primary: #131515;
     --secondary: #30312B;
     --primary-light: #FFFFD3;
+    --primary-light-transparent: #FFFFD388;
+    --gray: #424242;
+}
+
+*{
+    padding: 0;
+    margin: 0;
 }
 
 body{
@@ -13,4 +21,46 @@ h1, h2, h3, h4, h5, h6, span, p, button, input{
     font-family: 'roboto', sans-serif;
     color: var(--primary-light);
     margin: 0;
+}
+
+.App{
+    padding: 1.5rem;
+    padding-top: 0;
+}
+
+//FA ICON STYLES
+.icon{
+    font-size: 1.5em;
+}
+
+.github-icon{
+    color: #fafbfc;
+}
+
+.linkedin-icon{
+    color: #0077B5;
+}
+
+.whatsapp-icon{
+    color: #25d366;
+}
+
+.youtube-icon{
+    color: #FF0000;
+}
+
+.python-icon{
+    color: #4584b6;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-light-transparent);
+    color: var(--primary);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    cursor: pointer;
 }

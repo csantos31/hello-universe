@@ -1,13 +1,15 @@
 import React from "react";
 import './styles.scss'
+import { ProjectItem } from "../ProjectItem";
 
 export function ProjectsComponent(){
     return(
         <section className="projects">
             <h2>Personal Projects</h2>
-            {/* 
-                @TODO: create new component project and list it here
-            */}
+            <ProjectItem/>
+            <ProjectItem/>
+            <ProjectItem/>
+            <ProjectItem/>
         </section>
     )
 }

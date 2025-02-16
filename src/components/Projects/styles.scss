@@ -1,19 +1,12 @@
 .projects{
-    padding: 28px;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    justify-self: center;
-    text-align: start;
-    margin-top: 2rem;
-    width: 80%;
+    align-items: flex-start;
     
 
     h2{
         font-size: 2em;
         color: var(--primary-light);
     }
-
-    
-    
 }
