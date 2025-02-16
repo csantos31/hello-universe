@@ -2,36 +2,36 @@
 	"data": [
 		{
 			"name": "Hangman Game",
-			"github-url": "https://github.com/csantos31/hangman-game",
-			"image": "todo",
+			"github_url": "https://github.com/csantos31/hangman-game",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/hangman.png",
 			"description":"Hangman game implemented in Python. The game selects a random word from a predefined list, and the player must guess the word letter by letter before the hangman drawing is completed.",
 			"stack": ["python"]
 		},
 		{
-			"name": "Hangman Game",
-			"github-url": "https://github.com/csantos31/python-algorithms/tree/main/jokenpo",
-			"image": "todo",
+			"name": "JOKENPO",
+			"github_url": "https://github.com/csantos31/python-algorithms/tree/main/jokenpo",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jokenpo.png",
 			"description": "The script allows the user to choose between Rock, Paper, or Scissors, and the computer generates a random move. The game determines the winner, keeps track of victories, ties, and displays the current status after each round.",
 			"stack": ["python"]
 		},
 		{
 			"name": "Portfolio v1",
-			"github-url": "https://github.com/csantos31/portifolio",
-			"image": "todo",
+			"github_url": "https://github.com/csantos31/portifolio",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/portfolio-timeline.png",
 			"description": "First version of my portfolio, designed in figma and implemented with basic html, css and JS. This project also has a timeline made using only css",
 			"stack": ["html", "css", "javascript"]
 		},
 		{
 			"name": "Javascript Object Oriented",
-			"github-url": "https://github.com/csantos31/jsdoc-sample",
-			"image": "todo",
+			"github_url": "https://github.com/csantos31/jsdoc-sample",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jsdoc.png",
 			"description": "This project intends to show how JSDoc with classes can be an alternative to Typescript (no means that it is better, but, possible)",
 			"stack": ["javascript"]
 		},
 		{
 			"name": "TDD - XUnit",
-			"github-url": "https://github.com/csantos31/TDD-xunit",
-			"image": "todo",
+			"github_url": "https://github.com/csantos31/TDD-xunit",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/tdd-xunit.png",
 			"description": "Sample demo for unit tests in cSharp program",
 			"stack": ["csharp"]
 		}

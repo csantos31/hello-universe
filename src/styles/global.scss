@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6, span, p, button, input{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .App{
     padding: 1.5rem;
     padding-top: 0;
@@ -51,6 +55,22 @@ h1, h2, h3, h4, h5, h6, span, p, button, input{
 
 .python-icon{
     color: #4584b6;
+}
+
+.javascript-icon{
+    color: #F0DB4F;
+}
+
+.dev-icon{
+    color: #4584b6;
+}
+
+.html-icon{
+    color: #e34c26;
+}
+
+.css-icon{
+    color: #2965f1;
 }
 
 button {

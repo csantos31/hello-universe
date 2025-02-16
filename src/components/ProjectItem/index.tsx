@@ -1,27 +1,63 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.scss";
 
-import logo from "../../images/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPython } from "@fortawesome/free-brands-svg-icons";
+import {
+  faPython,
+  faJs,
+  faHtml5,
+  faCss3,
+  faDev,
+  IconDefinition,
+} from "@fortawesome/free-brands-svg-icons";
+import { Project } from "../../types/Project";
+import { StackItemEnum } from "../../types/StackItemEnum";
+import { useClassIconName } from "../../hooks/useClassIconName";
 
-export function ProjectItemComponent() {
+export function ProjectItemComponent({
+  name,
+  github_url,
+  image,
+  description,
+  stack,
+}: Project) {
+  const [icons, setIcons] = useState<IconDefinition[]>([]);
+
+  const { getIconClasses } = useClassIconName();
+
+  useEffect(() => {
+    setIcons(
+      stack.map((stackItem) => {
+        if (stackItem === StackItemEnum.python) return faPython;
+        if (stackItem === StackItemEnum.javascript) return faJs;
+        if (stackItem === StackItemEnum.html) return faHtml5;
+        if (stackItem === StackItemEnum.css) return faCss3;
+        return faDev;
+      })
+    );
+  }, []);
+
   return (
     <>
       <div className="projectItem">
         <div className="image">
-          <img src={logo} alt="Project Image" />
+          <img src={image} alt="Project Image" />
         </div>
         <div className="description">
-          <h1>JOKENPO</h1>
-          <span>
-            simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
-            1500s
-          </span>
+          <h1>{name}</h1>
+          <span>{description}</span>
           <div className="plus">
-            <button>See project</button>
-            <FontAwesomeIcon icon={faPython} className="icon python-icon" />
+            <a href={github_url} target="_blank" rel="noopener noreferrer">
+              <button>See project</button>
+            </a>
+
+            <div>
+              {icons.map((icon, index) => {
+                return (
+                  <FontAwesomeIcon key={index} icon={icon} className={getIconClasses(icon.iconName)}/>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

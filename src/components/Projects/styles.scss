@@ -3,10 +3,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 2rem;
     
 
     h2{
         font-size: 2em;
         color: var(--primary-light);
     }
+}
+
+@media (max-width: 468px) {
+    .projects{
+        padding: 0;
+    }    
 }
