@@ -37,12 +37,13 @@
   }
 }
 
-@media (max-width: 468px) {
+@media (max-width: 769px) {
   .projectItem {
     height: 26rem;
+    width: 100%;
 
     .description{
-      width: 100%;
+      display: flex;
     }
     
     .image {
