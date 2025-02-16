@@ -1,2 +1,0 @@
-:root{--primary-background:#131515;--secondary-background:#30312b;--primary-text:#ffffd3}body{background-color:#131515;background-color:var(--primary-background);overflow-x:hidden}button,div,h1,h2,h3,h4,h5,h6,input,p,span{color:#ffffd3;color:var(--primary-text);font-family:roboto,sans-serif}header{padding:28px;position:sticky;top:0;width:100%}header h1{margin:0}
-/*# sourceMappingURL=main.7ed54668.css.map*/

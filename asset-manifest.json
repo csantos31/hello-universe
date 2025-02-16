@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/hello-universe/static/css/main.7ed54668.css",
-    "main.js": "/hello-universe/static/js/main.71bb7415.js",
+    "main.css": "/hello-universe/static/css/main.eec0e21d.css",
+    "main.js": "/hello-universe/static/js/main.6cca93fc.js",
     "static/js/453.c98f078b.chunk.js": "/hello-universe/static/js/453.c98f078b.chunk.js",
+    "static/media/profile.jpg": "/hello-universe/static/media/profile.33a5541e3b02427bf4b8.jpg",
     "index.html": "/hello-universe/index.html",
-    "main.7ed54668.css.map": "/hello-universe/static/css/main.7ed54668.css.map",
-    "main.71bb7415.js.map": "/hello-universe/static/js/main.71bb7415.js.map",
+    "main.eec0e21d.css.map": "/hello-universe/static/css/main.eec0e21d.css.map",
+    "main.6cca93fc.js.map": "/hello-universe/static/js/main.6cca93fc.js.map",
     "453.c98f078b.chunk.js.map": "/hello-universe/static/js/453.c98f078b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ed54668.css",
-    "static/js/main.71bb7415.js"
+    "static/css/main.eec0e21d.css",
+    "static/js/main.6cca93fc.js"
   ]
 }
