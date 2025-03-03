@@ -8,6 +8,13 @@
 			"stack": ["python"]
 		},
 		{
+			"name": "Pomodoro App",
+			"github_url": "https://wake-work-next.vercel.app/",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/pomodoro.png",
+			"description":"Developed using create-next-app, implements the Pomodoro technique to boost productivity. The timer is set for 25 minutes, during which the user focuses on a specific task, then, the system notify the user with a challenge, and upon completion, the user earns points (XP). These points accumulate, encouraging the user to maintain consistency and productivity over time.",
+			"stack": ["react", "javascript"]
+		},
+		{
 			"name": "JOKENPO",
 			"github_url": "https://github.com/csantos31/python-algorithms/tree/main/jokenpo",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jokenpo.png",
