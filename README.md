@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 
 ## 🚀 Deployment
 
-This project is deployed using GitHub Pages.
+This project is deployed in vercel [See here:](https://cyntia-santos.vercel.app/).
 
 ## 📬 Contact
 You can find me at:
