@@ -1,7 +1,7 @@
 {
   "name": "hello-universe",
   "version": "0.1.0",
-  "homepage": "https://csantos31.github.io/hello-universe",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
