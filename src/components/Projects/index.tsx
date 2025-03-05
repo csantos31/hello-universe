@@ -13,21 +13,27 @@ export function ProjectsComponent() {
 
   return (
     <section className="projects">
-      <h2>Personal Projects</h2>
-      {
-        projects?.map(project => {
-            return(
-                <ProjectItem
-                    key={project.github_url}
-                    description={project.description}
-                    github_url={project.github_url}
-                    image={project.image}
-                    name={project.name}
-                    stack={project.stack}
-                />
-            )
-        })
-      }
+      <h2>Some of my Personal Projects</h2>
+      <span>
+        Some projects I carried out because I needed to use the skill in some
+        job I was assigned to, or because I studied something new, or even
+        updated myself on something
+      </span>
+
+      <div className="project-items">
+        {projects?.map((project) => {
+          return (
+            <ProjectItem
+              key={project.github_url}
+              description={project.description}
+              github_url={project.github_url}
+              image={project.image}
+              name={project.name}
+              stack={project.stack}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 }

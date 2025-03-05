@@ -1,6 +1,13 @@
 {
 	"data": [
 		{
+			"name": "TalkToAi",
+			"github_url": "https://github.com/csantos31/talktoai",
+			"image": "https://raw.githubusercontent.com/csantos31/talktoai/refs/heads/main/public/screenshot.png",
+			"description":"Project in React and TypeScript, integrating AI models through the OpenRouter API. The application allows the user to choose between DeepSeek and ChatGPT, ensuring flexibility in communication with different services.",
+			"stack": ["react", "javascript"]
+		},
+		{
 			"name": "Hangman Game",
 			"github_url": "https://github.com/csantos31/hangman-game",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/hangman.png",

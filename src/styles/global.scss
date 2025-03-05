@@ -5,6 +5,7 @@
     --primary-light: #FFFFD3;
     --primary-light-transparent: #FFFFD388;
     --gray: #424242;
+    --gold: #DEBE94;
 }
 
 *{
@@ -83,4 +84,9 @@ button {
     padding: 0.5rem;
     border-radius: 0.5em;
     cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
 }
