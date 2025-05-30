@@ -7,7 +7,7 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 - **React** - Built using functional components and hooks  
 - **TypeScript** - For type safety and better development experience  
 - **GitHub Pages** - Hosted using GitHub Pages  
-- **gh-pages** - Used to deploy the project easily  
+- **Vercel** - Used to deploy the project easily  
 
 ## 📌 Features
 
@@ -15,7 +15,8 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 - **Responsive Design** - Works on both desktop and mobile devices  
 - **Project Showcase** - Displays some of my personal projects  
 - **Social Links** - Connect with me via LinkedIn, GitHub, and more  
-- **Downloadable CV** - Available for easy access  
+- **Downloadable CV** - Available for easy access
+- **Internationalized** - Page is available in english and in portuguese
 
 ## 🚀 Deployment
 
