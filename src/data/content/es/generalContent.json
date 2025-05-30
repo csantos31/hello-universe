@@ -1,0 +1,47 @@
+{
+  "data": {
+    "hero": {
+      "name": "Cyntia Santos",
+      "position": "Desarrolladora de software Fullstack",
+      "headline": "Apasionada por la tecnología, creando el futuro con innovación y creatividad."
+    },
+    "contact": "Puedes encontrarme en:",
+    "socialMedia": [
+      {
+        "name": "Linkedin",
+        "icon": ["fab", "linkedin"],
+        "class": "linkedin",
+        "link": "https://www.linkedin.com/in/cyntia-santos-518666137/"
+      },
+      {
+        "name": "Github",
+        "icon": ["fab","github"],
+        "class": "github",
+        "link": "https://github.com/csantos31"
+      },
+      {
+        "name": "Whatsapp",
+        "icon": ["fab","whatsapp"],
+        "class": "whatsapp",
+        "link": "https://wa.me/5511983257263"
+      },
+      {
+        "name": "Youtube",
+        "icon": ["fab","youtube"],
+        "class": "youtube",
+        "link": "https://www.youtube.com/@csantos31"
+      },
+      {
+        "name": "Correo electrónico",
+        "icon": ["fas","envelope"],
+        "class": "envelope",
+        "link": "mailto:cyntia.aparecida@hotmail.com"
+      }
+    ],
+    "smallIntro": "Algunos de mis proyectos personales",
+    "introHeadline": "Algunos proyectos que realicé porque necesitaba usar la habilidad en algún trabajo asignado, o porque estudié algo nuevo, o incluso me actualicé en algún tema",
+    "footer": "© Todos los derechos reservados - 2025",
+    "projectCta": "Ver proyecto",
+    "resumeCta": "Descargar CV ↓"
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.scss";
 import brIcon from "../../images/brazil.svg";
 import usaIcon from "../../images/united-states.svg";
+import esIcon from "../../images/spain.svg";
 import { useLanguageContext } from "../../languageContext";
 
 export function MenuComponent() {
@@ -26,6 +27,15 @@ export function MenuComponent() {
             className={language == "pt" ? "selected" : ""}
             onClick={() => {
               setLanguage("pt");
+            }}
+          />
+          <img
+            src={esIcon}
+            alt="ES-España"
+            title="establecer idioma a español"
+            className={language == "es" ? "selected" : ""}
+            onClick={() => {
+              setLanguage("es");
             }}
           />
         </div>

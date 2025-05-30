@@ -13,7 +13,7 @@
     
     .available-languages{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         color: var(--gray);
         gap: 1rem;
         img{
