@@ -1,0 +1,53 @@
+{
+	"data": [
+		{
+			"name": "TalkToAi",
+			"github_url": "https://github.com/csantos31/talktoai",
+			"image": "https://raw.githubusercontent.com/csantos31/talktoai/refs/heads/main/public/screenshot.png",
+			"description": "Projeto em React e TypeScript, integrando modelos de IA por meio da API OpenRouter. O aplicativo permite ao usuário escolher entre DeepSeek e ChatGPT, garantindo flexibilidade na comunicação com diferentes serviços.",
+			"stack": ["react", "javascript"]
+		},
+		{
+			"name": "Jogo da Forca",
+			"github_url": "https://github.com/csantos31/hangman-game",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/hangman.png",
+			"description": "Jogo da forca implementado em Python. O jogo seleciona uma palavra aleatória de uma lista predefinida, e o jogador deve adivinhar a palavra letra por letra antes que o desenho do enforcado seja concluído.",
+			"stack": ["python"]
+		},
+		{
+			"name": "Aplicativo Pomodoro",
+			"github_url": "https://wake-work-next.vercel.app/",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/pomodoro.png",
+			"description": "Desenvolvido usando create-next-app, implementa a técnica Pomodoro para aumentar a produtividade. O cronômetro é configurado para 25 minutos, durante os quais o usuário foca em uma tarefa específica. Depois, o sistema notifica o usuário com um desafio e, ao completá-lo, o usuário ganha pontos (XP). Esses pontos se acumulam, incentivando o usuário a manter consistência e produtividade ao longo do tempo.",
+			"stack": ["react", "javascript"]
+		},
+		{
+			"name": "JOKENPO",
+			"github_url": "https://github.com/csantos31/python-algorithms/tree/main/jokenpo",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jokenpo.png",
+			"description": "O script permite ao usuário escolher entre Pedra, Papel ou Tesoura, e o computador gera uma jogada aleatória. O jogo determina o vencedor, mantém o controle de vitórias, empates e exibe o status atual após cada rodada.",
+			"stack": ["python"]
+		},
+		{
+			"name": "Portfólio v1",
+			"github_url": "https://github.com/csantos31/portifolio",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/portfolio-timeline.png",
+			"description": "Primeira versão do meu portfólio, desenhado no Figma e implementado com HTML, CSS e JS básicos. Este projeto também possui uma linha do tempo feita apenas com CSS.",
+			"stack": ["html", "css", "javascript"]
+		},
+		{
+			"name": "Javascript Orientado a Objetos",
+			"github_url": "https://github.com/csantos31/jsdoc-sample",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jsdoc.png",
+			"description": "Este projeto tem o intuito de mostrar como o JSDoc com classes pode ser uma alternativa ao Typescript (não significa que seja melhor, mas que é possível).",
+			"stack": ["javascript"]
+		},
+		{
+			"name": "TDD - XUnit",
+			"github_url": "https://github.com/csantos31/TDD-xunit",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/tdd-xunit.png",
+			"description": "Demonstração de exemplo para testes unitários em um programa CSharp.",
+			"stack": ["csharp"]
+		}
+	]
+}

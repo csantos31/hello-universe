@@ -1,11 +1,14 @@
 import React from "react";
 import "./styles.scss";
+import { useLanguageContext } from "../../languageContext";
 
 export function FooterComponent() {
+  const { generalContent } = useLanguageContext();
+
   return (
     <>
       <footer className="footer">
-        <h3>© All rights reserved - 2025</h3>
+        <h3>{generalContent?.footer}</h3>
       </footer>
     </>
   );

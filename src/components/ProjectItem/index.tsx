@@ -13,6 +13,7 @@ import {
 import { Project } from "../../types/Project";
 import { StackItemEnum } from "../../types/StackItemEnum";
 import { useClassIconName } from "../../hooks/useClassIconName";
+import { useLanguageContext } from "../../languageContext";
 
 export function ProjectItemComponent({
   name,
@@ -24,6 +25,7 @@ export function ProjectItemComponent({
   const [icons, setIcons] = useState<IconDefinition[]>([]);
 
   const { getIconClasses } = useClassIconName();
+  const { generalContent } = useLanguageContext();
 
   useEffect(() => {
     setIcons(
@@ -48,13 +50,17 @@ export function ProjectItemComponent({
           <span>{description}</span>
           <div className="plus">
             <a href={github_url} target="_blank" rel="noopener noreferrer">
-              <button>See project</button>
+              <button>{generalContent?.projectCta}</button>
             </a>
 
             <div>
               {icons.map((icon, index) => {
                 return (
-                  <FontAwesomeIcon key={index} icon={icon} className={getIconClasses(icon.iconName)}/>
+                  <FontAwesomeIcon
+                    key={index}
+                    icon={icon}
+                    className={getIconClasses(icon.iconName)}
+                  />
                 );
               })}
             </div>

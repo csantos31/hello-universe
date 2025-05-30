@@ -1,8 +1,8 @@
 export enum StackItemEnum {
-    javascript = "javascript",
-    js = "js",
-    csharp = "csharp",
-    python = "python",
-    html = "html",
-    css = "css",
-  };
+  javascript = "javascript",
+  js = "js",
+  csharp = "csharp",
+  python = "python",
+  html = "html",
+  css = "css",
+}

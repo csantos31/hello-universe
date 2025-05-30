@@ -11,8 +11,21 @@
     background-color: var(--primary);
     z-index: 999;
     
-    span{
+    .available-languages{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         color: var(--gray);
+        gap: 1rem;
+        img{
+            width: 1.5rem;
+            height: 1.5rem;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+    }
+
+    .selected{
+        opacity: 1 !important;
     }
 
     h3{

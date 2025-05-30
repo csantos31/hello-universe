@@ -1,24 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./styles.scss";
 import { ProjectItem } from "../ProjectItem";
-import externalDataSample from "../../data/projects.json";
-import { Project } from "../../types/Project";
+import { useLanguageContext } from "../../languageContext";
 
 export function ProjectsComponent() {
-  const [projects, setProjects] = useState<Project[] | null>([]);
-
-  useEffect(() => {
-    setProjects(externalDataSample.data);
-  }, []);
+  const { projects, generalContent } = useLanguageContext();
 
   return (
     <section className="projects">
-      <h2>Some of my Personal Projects</h2>
-      <span>
-        Some projects I carried out because I needed to use the skill in some
-        job I was assigned to, or because I studied something new, or even
-        updated myself on something
-      </span>
+      <h2>{generalContent?.smallIntro}</h2>
+      <span>{generalContent?.introHeadline}</span>
 
       <div className="project-items">
         {projects?.map((project) => {
