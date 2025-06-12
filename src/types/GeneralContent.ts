@@ -22,4 +22,5 @@ export interface GeneralContent {
   footer: string;
   projectCta: string;
   resumeCta: string;
+  resumeLink: string;
 }

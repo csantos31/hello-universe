@@ -41,7 +41,7 @@ export function MenuComponent() {
         </div>
 
         <a
-          href="https://csantos31.github.io/portifolio/CYNTIA-SANTOS-RESUME.pdf"
+          href={generalContent?.resumeLink}
           target="_blank"
           rel="noopener noreferrer"
         >
