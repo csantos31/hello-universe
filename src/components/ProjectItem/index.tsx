@@ -3,17 +3,12 @@ import "./styles.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faPython,
-  faJs,
-  faHtml5,
-  faCss3,
-  faDev,
   IconDefinition,
 } from "@fortawesome/free-brands-svg-icons";
 import { Project } from "../../types/Project";
-import { StackItemEnum } from "../../types/StackItemEnum";
 import { useClassIconName } from "../../hooks/useClassIconName";
 import { useLanguageContext } from "../../languageContext";
+import { StackItems, StackKey } from "../../consts/StackItems";
 
 export function ProjectItemComponent({
   name,
@@ -28,16 +23,8 @@ export function ProjectItemComponent({
   const { generalContent } = useLanguageContext();
 
   useEffect(() => {
-    setIcons(
-      stack.map((stackItem) => {
-        if (stackItem === StackItemEnum.python) return faPython;
-        if (stackItem === StackItemEnum.javascript) return faJs;
-        if (stackItem === StackItemEnum.html) return faHtml5;
-        if (stackItem === StackItemEnum.css) return faCss3;
-        return faDev;
-      })
-    );
-  }, []);
+    setIcons(stack.map((stackItem) => StackItems[stackItem].icon));
+  }, [stack]);
 
   return (
     <>
@@ -59,7 +46,7 @@ export function ProjectItemComponent({
                   <FontAwesomeIcon
                     key={index}
                     icon={icon}
-                    className={getIconClasses(icon.iconName)}
+                    className={getIconClasses(icon.iconName as StackKey)}
                   />
                 );
               })}

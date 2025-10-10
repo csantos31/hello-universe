@@ -1,11 +1,18 @@
 {
 	"data": [
 		{
+			"name": "Helm template - K8S",
+			"github_url": "https://github.com/csantos31/helm-demo-chart",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/helm.png",
+			"description": "El proyecto demuestra cómo empacar, versionar y publicar una plantilla Helm que hace referencia a una imagen de Docker alojada en GitHub Container Registry (GHCR) generada por una aplicación versionada en otro repositorio.",
+			"stack": ["docker"]
+		},
+		{
 			"name": "TalkToAi",
 			"github_url": "https://github.com/csantos31/talktoai",
 			"image": "https://raw.githubusercontent.com/csantos31/talktoai/refs/heads/main/public/screenshot.png",
 			"description": "Proyecto en React y TypeScript, que integra modelos de IA a través de la API de OpenRouter. La aplicación permite al usuario elegir entre DeepSeek y ChatGPT, garantizando flexibilidad en la comunicación con diferentes servicios.",
-			"stack": ["react", "javascript"]
+			"stack": ["react", "js"]
 		},
 		{
 			"name": "Hangman Game",
@@ -19,7 +26,7 @@
 			"github_url": "https://wake-work-next.vercel.app/",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/pomodoro.png",
 			"description": "Desarrollado usando create-next-app, implementa la técnica Pomodoro para aumentar la productividad. El temporizador está configurado para 25 minutos, durante los cuales el usuario se enfoca en una tarea específica. Luego, el sistema notifica al usuario con un desafío, y al completarlo, el usuario gana puntos (XP). Estos puntos se acumulan, alentando al usuario a mantener la constancia y productividad con el tiempo.",
-			"stack": ["react", "javascript"]
+			"stack": ["react", "js"]
 		},
 		{
 			"name": "JOKENPO",
@@ -33,21 +40,21 @@
 			"github_url": "https://github.com/csantos31/portifolio",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/portfolio-timeline.png",
 			"description": "Primera versión de mi portafolio, diseñado en Figma e implementado con HTML, CSS y JS básicos. Este proyecto también tiene una línea de tiempo hecha solo con CSS.",
-			"stack": ["html", "css", "javascript"]
+			"stack": ["html5", "css3", "js"]
 		},
 		{
 			"name": "Javascript Object Oriented",
 			"github_url": "https://github.com/csantos31/jsdoc-sample",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jsdoc.png",
 			"description": "Este proyecto tiene como objetivo mostrar cómo JSDoc con clases puede ser una alternativa a TypeScript (no significa que sea mejor, pero sí posible).",
-			"stack": ["javascript"]
+			"stack": ["js"]
 		},
 		{
 			"name": "TDD - XUnit",
 			"github_url": "https://github.com/csantos31/TDD-xunit",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/tdd-xunit.png",
 			"description": "Demostración de ejemplo para pruebas unitarias en un programa en CSharp.",
-			"stack": ["csharp"]
+			"stack": ["dev"]
 		}
 	]
 }

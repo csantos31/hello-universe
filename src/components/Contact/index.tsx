@@ -16,8 +16,9 @@ export function ContactComponent() {
         <h3>{generalContent?.contact}</h3>
 
         <div className="social-media">
-          {generalContent?.socialMedia?.map((socialMedia) => (
+          {generalContent?.socialMedia?.map((socialMedia, index) => (
             <a
+              key={index}
               href={socialMedia.link}
               target="_blank"
               rel="noopener noreferrer"

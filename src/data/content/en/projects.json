@@ -1,11 +1,18 @@
 {
 	"data": [
 		{
+			"name": "Helm template - K8S",
+			"github_url": "https://github.com/csantos31/helm-demo-chart",
+			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/helm.png",
+			"description": "The project demonstrates how to package, version, and publish a Helm chart that references a Docker image hosted on GitHub Container Registry (GHCR).",
+			"stack": ["docker"]
+		},
+		{
 			"name": "TalkToAi",
 			"github_url": "https://github.com/csantos31/talktoai",
 			"image": "https://raw.githubusercontent.com/csantos31/talktoai/refs/heads/main/public/screenshot.png",
 			"description":"Project in React and TypeScript, integrating AI models through the OpenRouter API. The application allows the user to choose between DeepSeek and ChatGPT, ensuring flexibility in communication with different services.",
-			"stack": ["react", "javascript"]
+			"stack": ["react", "js"]
 		},
 		{
 			"name": "Hangman Game",
@@ -19,7 +26,7 @@
 			"github_url": "https://wake-work-next.vercel.app/",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/pomodoro.png",
 			"description":"Developed using create-next-app, implements the Pomodoro technique to boost productivity. The timer is set for 25 minutes, during which the user focuses on a specific task, then, the system notify the user with a challenge, and upon completion, the user earns points (XP). These points accumulate, encouraging the user to maintain consistency and productivity over time.",
-			"stack": ["react", "javascript"]
+			"stack": ["react", "js"]
 		},
 		{
 			"name": "JOKENPO",
@@ -33,21 +40,21 @@
 			"github_url": "https://github.com/csantos31/portifolio",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/portfolio-timeline.png",
 			"description": "First version of my portfolio, designed in figma and implemented with basic html, css and JS. This project also has a timeline made using only css",
-			"stack": ["html", "css", "javascript"]
+			"stack": ["html5", "css3", "js"]
 		},
 		{
 			"name": "Javascript Object Oriented",
 			"github_url": "https://github.com/csantos31/jsdoc-sample",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/jsdoc.png",
 			"description": "This project intends to show how JSDoc with classes can be an alternative to Typescript (no means that it is better, but, possible)",
-			"stack": ["javascript"]
+			"stack": ["js"]
 		},
 		{
 			"name": "TDD - XUnit",
 			"github_url": "https://github.com/csantos31/TDD-xunit",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/tdd-xunit.png",
 			"description": "Sample demo for unit tests in cSharp program",
-			"stack": ["csharp"]
+			"stack": ["dev"]
 		}
 	]
 }
