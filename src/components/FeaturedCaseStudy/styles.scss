@@ -1,0 +1,309 @@
+.featured-case-study {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  
+  .featured-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(30, 41, 59, 0.6);
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  }
+  
+  .featured-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid rgba(251, 191, 36, 0.3);
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    
+    .star-icon {
+      font-size: 16px;
+    }
+    
+    span {
+      color: #fbbf24;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    
+    .case-study-label {
+      color: #94a3b8;
+    }
+  }
+  
+  .featured-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    
+    @media (max-width: 968px) {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+  
+  .content-left {
+    .featured-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 20px;
+      line-height: 1.2;
+      
+      .subtitle {
+        color: #94a3b8;
+        font-size: 2rem;
+      }
+      
+      @media (max-width: 768px) {
+        font-size: 2rem;
+        
+        .subtitle {
+          font-size: 1.5rem;
+        }
+      }
+    }
+    
+    .featured-description {
+      font-size: 1.1rem;
+      color: #cbd5e1;
+      line-height: 1.7;
+      margin-bottom: 24px;
+    }
+    
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+      
+      .tag {
+        color: #e2e8f0;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      
+      .tag-separator {
+        color: #475569;
+      }
+    }
+    
+    .action-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      
+      button {
+        padding: 12px 28px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+        
+        &.btn-primary {
+          background: #fbbf24;
+          color: #0f172a;
+          
+          &:hover {
+            background: #f59e0b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+          }
+        }
+        
+        &.btn-secondary {
+          background: transparent;
+          color: #f1f5f9;
+          border: 2px solid #475569;
+          
+          &:hover {
+            border-color: #94a3b8;
+            background: rgba(148, 163, 184, 0.1);
+            transform: translateY(-2px);
+          }
+        }
+      }
+    }
+  }
+  
+  .content-right {
+    .diagram {
+      background: rgba(15, 23, 42, 0.8);
+      border-radius: 12px;
+      padding: 30px;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      
+      .diagram-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 30px;
+        
+        .glue-icon {
+          background: rgba(139, 92, 246, 0.1);
+          padding: 8px;
+          border-radius: 8px;
+        }
+        
+        .diagram-title {
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #f1f5f9;
+        }
+      }
+      
+      .data-flow {
+        .flow-row {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-bottom: 20px;
+          
+          .data-source {
+            &.database-icon {
+              width: 50px;
+              height: 50px;
+              background: #10b981;
+              border-radius: 8px;
+              position: relative;
+              
+              .cylinder {
+                width: 30px;
+                height: 8px;
+                background: #059669;
+                border-radius: 50%;
+                position: absolute;
+                left: 10px;
+                
+                &:first-child {
+                  top: 12px;
+                }
+                
+                &:last-child {
+                  bottom: 12px;
+                }
+              }
+              
+              &.alt {
+                background: #f97316;
+                
+                .cylinder {
+                  background: #ea580c;
+                }
+              }
+            }
+          }
+          
+          .arrow {
+            color: #64748b;
+            font-size: 1.5rem;
+          }
+          
+          .data-stage {
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            flex: 1;
+            text-align: center;
+            
+            &.raw {
+              background: #8b5cf6;
+              color: white;
+            }
+            
+            &.trusted {
+              background: #ef4444;
+              color: white;
+            }
+            
+            &.refined {
+              background: #64748b;
+              color: white;
+            }
+          }
+        }
+        
+        .flow-connector {
+          margin: 20px 0;
+          padding-left: 60px;
+          
+          .vertical-arrow {
+            color: #64748b;
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+          }
+          
+          .data-stage {
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-align: center;
+            display: inline-block;
+          }
+        }
+        
+        .output-section {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          margin-top: 20px;
+          padding-left: 60px;
+          
+          .arrow.horizontal {
+            color: #64748b;
+            font-size: 1.5rem;
+          }
+          
+          .outputs {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            
+            .output-item {
+              display: flex;
+              align-items: center;
+              gap: 12px;
+              background: rgba(148, 163, 184, 0.1);
+              padding: 12px 16px;
+              border-radius: 8px;
+              border: 1px solid rgba(148, 163, 184, 0.2);
+              
+              &.report {
+                .report-icon {
+                  font-size: 1.5rem;
+                  background: white;
+                  width: 40px;
+                  height: 40px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 6px;
+                }
+              }
+              
+              span {
+                color: #f1f5f9;
+                font-weight: 600;
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -38,6 +38,23 @@
         "link": "mailto:cyntia.aparecida@hotmail.com"
       }
     ],
+    "featuredCaseStudy": {
+      "badge": "Destaque",
+      "caseStudyLabel": "Estudo de Caso",
+      "title": "Spark + AWS Glue Local ETL",
+      "subtitle": "(Audit-ready)",
+      "description": "ETL em Spark inspirado no AWS Glue, simulado localmente com foco em DX, auditabilidade e simulação realista de pipelines produtivos.",
+      "techTags": ["Spark", "AWS Glue (Mock)", "Python", "Parquet", "Audit Layer"],
+      "primaryButton": "Ver Estudo de Caso",
+      "secondaryButton": "Código Fonte",
+      "diagramTitle": "AWS Glue",
+      "dataStages": {
+        "raw": "Dados Brutos",
+        "trusted": "Dados Confiáveis",
+        "refined": "Dados Refinados"
+      },
+      "auditReports": "Relatórios de Auditoria"
+    },
     "smallIntro": "Alguns dos meus Projetos Pessoais",
     "introHeadline": "Alguns projetos que realizei porque precisei usar determinada habilidade em algum trabalho, ou porque estudei algo novo, ou ainda me atualizei sobre algum tema",
     "footer": "© Todos os direitos reservados - 2025",

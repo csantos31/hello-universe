@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./styles.scss";
 import profileImage from "../../images/profile-new.jpg";
 import { useLanguageContext } from "../../languageContext";
@@ -9,7 +9,7 @@ export function HeroComponent() {
     <>
       <header>
         <div className="image">
-          <img src={profileImage} alt="Profile image" />
+          <img src={profileImage} alt="Profile" />
         </div>
         <div className="headline">
           <h1>{generalContent?.hero?.name}</h1>

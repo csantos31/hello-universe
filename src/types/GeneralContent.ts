@@ -13,10 +13,29 @@ interface HeroInfo {
   headline: string;
 }
 
+interface FeaturedCaseStudy {
+  badge: string;
+  caseStudyLabel: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  techTags: string[];
+  primaryButton: string;
+  secondaryButton: string;
+  diagramTitle: string;
+  dataStages: {
+    raw: string;
+    trusted: string;
+    refined: string;
+  };
+  auditReports: string;
+}
+
 export interface GeneralContent {
   hero: HeroInfo;
   contact: string;
   socialMedia: SocialMediaItem[];
+  featuredCaseStudy: FeaturedCaseStudy;
   smallIntro: string;
   introHeadline: string;
   footer: string;

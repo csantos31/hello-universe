@@ -15,7 +15,7 @@ export function MenuComponent() {
             src={usaIcon}
             alt="EN-US"
             title="Set language to english"
-            className={language == "en" ? "selected" : ""}
+            className={language === "en" ? "selected" : ""}
             onClick={() => {
               setLanguage("en");
             }}
@@ -24,7 +24,7 @@ export function MenuComponent() {
             src={brIcon}
             alt="PT-BR"
             title="Definir linguagem para português"
-            className={language == "pt" ? "selected" : ""}
+            className={language === "pt" ? "selected" : ""}
             onClick={() => {
               setLanguage("pt");
             }}
@@ -33,7 +33,7 @@ export function MenuComponent() {
             src={esIcon}
             alt="ES-España"
             title="establecer idioma a español"
-            className={language == "es" ? "selected" : ""}
+            className={language === "es" ? "selected" : ""}
             onClick={() => {
               setLanguage("es");
             }}

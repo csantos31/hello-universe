@@ -30,7 +30,7 @@ export function ProjectItemComponent({
     <>
       <div className="projectItem">
         <div className="image">
-          <img src={image} alt="Project Image" />
+          <img src={image} alt="Project" />
         </div>
         <div className="description">
           <h1>{name}</h1>
