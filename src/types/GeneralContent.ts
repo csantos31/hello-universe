@@ -21,7 +21,9 @@ interface FeaturedCaseStudy {
   description: string;
   techTags: string[];
   primaryButton: string;
+  primaryButtonCTA: string;
   secondaryButton: string;
+  secondaryButtonCTA: string;
   diagramTitle: string;
   dataStages: {
     raw: string;

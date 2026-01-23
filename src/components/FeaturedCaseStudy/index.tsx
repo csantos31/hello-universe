@@ -21,6 +21,8 @@ export const FeaturedCaseStudy: React.FC = () => {
     diagramTitle,
     dataStages,
     auditReports,
+    primaryButtonCTA,
+    secondaryButtonCTA,
   } = generalContent.featuredCaseStudy;
 
   return (
@@ -56,8 +58,12 @@ export const FeaturedCaseStudy: React.FC = () => {
             </div>
             
             <div className="action-buttons">
-              <button className="btn-primary">{primaryButton}</button>
-              <button className="btn-secondary">{secondaryButton}</button>
+              <a href={primaryButtonCTA} target="_blank" rel="noopener noreferrer">
+                <button className="btn-primary">{primaryButton}</button>
+              </a>
+              <a href={secondaryButtonCTA} target="_blank" rel="noopener noreferrer">
+                <button className="btn-secondary">{secondaryButton}</button>
+              </a>
             </div>
           </div>
           

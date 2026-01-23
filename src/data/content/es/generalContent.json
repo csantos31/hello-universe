@@ -46,7 +46,9 @@
       "description": "ETL en Spark inspirado en AWS Glue, simulado localmente con enfoque en DX, auditabilidad y simulación realista de pipelines productivos.",
       "techTags": ["Spark", "AWS Glue (Mock)", "Python", "Parquet", "Audit Layer"],
       "primaryButton": "Ver Caso de Estudio",
+      "primaryButtonCTA": "https://github.com/csantos31/spark-glue-local-etl/blob/main/README.md",
       "secondaryButton": "Código Fuente",
+      "secondaryButtonCTA": "https://github.com/csantos31/spark-glue-local-etl",
       "diagramTitle": "AWS Glue",
       "dataStages": {
         "raw": "Datos Crudos",
@@ -55,7 +57,7 @@
       },
       "auditReports": "Informes de Auditoría"
     },
-    "smallIntro": "Algunos de mis proyectos personales",
+    "smallIntro": "Otros proyectos personales",
     "introHeadline": "Algunos proyectos que realicé porque necesitaba usar la habilidad en algún trabajo asignado, o porque estudié algo nuevo, o incluso me actualicé en algún tema",
     "footer": "© Todos los derechos reservados - 2025",
     "projectCta": "Ver proyecto",
