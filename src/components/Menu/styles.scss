@@ -1,5 +1,5 @@
 .menu{
-    width: 100%;
+    // width: 100%;
     display: flex;
     justify-content: space-between;
     padding-bottom: 0.8rem;
@@ -9,8 +9,11 @@
     position: sticky;
     top: 0;
     background-color: var(--primary);
-    z-index: 999;
-    
+    // background-color: white;
+    z-index: 9999;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
     .available-languages{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

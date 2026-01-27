@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import profileImage from "../../images/profile-new.jpg";
+import profileImage from "../../images/profile.jpg";
 import { useLanguageContext } from "../../languageContext";
 
 export function HeroComponent() {
