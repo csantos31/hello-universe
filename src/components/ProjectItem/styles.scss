@@ -11,8 +11,11 @@
   margin: 1rem;
   background-color: #222;
   position: relative;
-  height: auto;
 
+  &::before,
+  &::after {
+    pointer-events: none;
+  }
   &::before {
     content: "";
     transition: 0.5s ease-in-out;
@@ -86,9 +89,19 @@
 }
 @media (max-width: 769px) {
   .projectItem {
-    width: 86%;
-    margin: auto;
-    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    border: 1px solid var(--primary-light-transparent);
+    border-radius: 0.5em;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #222;
+    position: relative;
+    
 
     .description {
       height: auto;
