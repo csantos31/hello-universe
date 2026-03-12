@@ -1,6 +1,13 @@
 {
 	"data": [
 		{
+            "name": "Tech Slides",
+            "github_url": "https://csantos31.github.io/tech-slides/",
+            "image": "https://raw.githubusercontent.com/csantos31/tech-slides/main/screenshot.png",
+            "description": "Un framework de presentación HTML liviano e independiente, con navegación por teclado, transiciones de diapositivas, modo de pantalla completa y animaciones escalonadas. Tema oscuro con tipografía Space Grotesk + JetBrains Mono.",
+            "stack": ["html5", "css3", "js"]
+        },
+		{
 			"name": "Helm template - K8S",
 			"github_url": "https://github.com/csantos31/helm-demo-chart",
 			"image": "https://raw.githubusercontent.com/csantos31/hello-universe/refs/heads/main/src/images/helm.png",
