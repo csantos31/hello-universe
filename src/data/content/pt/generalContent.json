@@ -26,12 +26,6 @@
         "link": "https://wa.me/5511983257263"
       },
       {
-        "name": "Youtube",
-        "icon": ["fab", "youtube"],
-        "class": "youtube",
-        "link": "https://www.youtube.com/@csantos31"
-      },
-      {
         "name": "E-mail",
         "icon": ["fas", "envelope"],
         "class": "envelope",
